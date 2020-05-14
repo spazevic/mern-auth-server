@@ -1,6 +1,5 @@
 require('dotenv').config()
 let db = require('../models')
-let jwt = require('jsonwebtoken')
 let router = require('express').Router()
 
 // POST /auth/login (find and validate user; send token)
